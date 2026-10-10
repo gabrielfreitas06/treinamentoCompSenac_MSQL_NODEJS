@@ -1,0 +1,19 @@
+POST http://localhost:3000/participantes
+Content-Type: application/json
+
+{
+    "nome": "Gabriel",
+    "email": "gabriel@teste.com"
+}
+###
+
+GET http://localhost:3000/participantes
+###
+
+PUT http://localhost:3000/participantes/1
+Content-Type: application/json
+
+{
+    "nome": "Gabriel Freitas",
+    "email": "gabrielfreitas@teste.com"
+}
